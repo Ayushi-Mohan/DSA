@@ -1,5 +1,9 @@
-// Here we also devide the array to sorted and unsorted array but performance is better. From index 1 we consider as insertion_value and compare to sorted array before it.
-// If 
+// Here we also devide the array to sorted and unsorted array but performance is better.
+// From index 1 we consider as insertion_value and compare to sorted array before it.
+// If left of element greater, shift all elements on the left ie sorted array till you find a value smaller
+
+//Time Complexity: O(N)
+//Space Complexity: O(1)
 
 public class InsertionSort {
 
